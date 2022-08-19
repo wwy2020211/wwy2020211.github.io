@@ -9,14 +9,20 @@ Please enter my profile
 
 
 ### Hobbies
-swimming   
-draw  
-music 
-mathematics 
-building
+*swimming  
+
+*draw 
+
+*music 
+
+
+*mathematics 
+
+*building
 
 ### Support or Contact
-mails :
+#mails :
 
 wangweiya0805@163.com
+
 wwy20@mails.tsinghua.edu.cn
