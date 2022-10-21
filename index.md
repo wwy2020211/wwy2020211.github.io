@@ -18,53 +18,6 @@ control systems
 
 physics
 
-## 获奖信息  Awards
-
-2017 03    Nanjing University of Science and Technology
-
-School Outstanding Student Scholarship
-
-2017 09    Nanjing University of Science and Technology
-
-School Outstanding Student Scholarship
-
-2017 10    Nanjing University of Science and Technology
-
-Second Prize of New Concept Weapon Design Competition
-
-2018      
-
-Jiangsu Province third Prize of mathematics
-
-Third Prize of Data Mining Challenge
-
-Nanjing University of Science and Technology Third Prize of Mathematical Model Competition
-
-Nanjing University of Science and Technology Science and Technology Innovation Competition Third Prize
-
-2019 06 
-
-Nanjing University of Science and Technology
-
-Outstanding Backbone of Mathematical Model Association
-
-2019 08 
-China First prize of Siemens Cup National Intelligent Manufacturing Challenge
-
-## 成果展示  publications
-
-2020            software copyright database system
-
-WWYSYS
-
-2021            Posting article AAAI
-
-The article was refused, now I prepare to modify it as my graduation project
-
-2022            Preparing to submit one article
-
-about vision large model and data compression during training
-
 ## 工作经历  work experience
 2021 03-2021 06
 
@@ -210,6 +163,54 @@ Risk extraction in news
 耗。最后成功研究出来一种训练过程中基于梯度的样本选取的压缩
 算法，实现训练时间压缩到原本百分之六十至七十同时改进的预训
 练方法可以使模型在检测任务在场景数据集上准确率达到良好效果
+
+
+## 获奖信息  Awards
+
+2017 03    Nanjing University of Science and Technology
+
+School Outstanding Student Scholarship
+
+2017 09    Nanjing University of Science and Technology
+
+School Outstanding Student Scholarship
+
+2017 10    Nanjing University of Science and Technology
+
+Second Prize of New Concept Weapon Design Competition
+
+2018      
+
+Jiangsu Province third Prize of mathematics
+
+Third Prize of Data Mining Challenge
+
+Nanjing University of Science and Technology Third Prize of Mathematical Model Competition
+
+Nanjing University of Science and Technology Science and Technology Innovation Competition Third Prize
+
+2019 06 
+
+Nanjing University of Science and Technology
+
+Outstanding Backbone of Mathematical Model Association
+
+2019 08 
+China First prize of Siemens Cup National Intelligent Manufacturing Challenge
+
+## 成果展示  publications
+
+2020            software copyright database system
+
+WWYSYS
+
+2021            Posting article AAAI
+
+The article was refused, now I prepare to modify it as my graduation project
+
+2022            Preparing to submit one article
+
+about vision large model and data compression during training
 
 ### Hobbies
 *swimming  
