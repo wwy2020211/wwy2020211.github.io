@@ -15,6 +15,7 @@ Please enter my profile
 
 *music 
 
+*physics
 
 *mathematics 
 
