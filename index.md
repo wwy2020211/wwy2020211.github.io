@@ -228,6 +228,6 @@ about vision large model and data compression during training
 ### Support or Contact
 #mails :
 
-wangweiya0805@163.com
+wangweiya47@163.com
 
 wwy20@mails.tsinghua.edu.cn
