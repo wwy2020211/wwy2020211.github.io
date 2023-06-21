@@ -25,18 +25,27 @@ Graphics
 2020-2023   Tsinghua University   Automation
 ## 工作经历  work experience
 2021 03-2021 06
+
 Food Safety Cloud 
+
 Algorithm Engineer
 
 2021.06.10-2021.09.10  
-Fifth Academy of Aerospace Engineering       
+
+Fifth Academy of Aerospace Engineering    
+
 Algorithm Engineer
 
 2021 09-2021 12
-Microsoft Asia Research Institute         
+
+Microsoft Asia Research Institute 
+
 Algorithm Engineer  
-2022.12-2023.03                                              
-Tecent                                   
+
+2022.12-2023.03   
+
+Tecent            
+
 Graphics Algorithm Engineer   
 ### Hobbies
 *swimming  
