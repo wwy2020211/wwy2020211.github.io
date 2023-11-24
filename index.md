@@ -1,6 +1,6 @@
 ## Welcome to my GitHub Pages
 
-Hello!This is my code diary.With a relatively solid professional knowledge in mathematical physics and coding . Recently,my interest turns to the computer structure and system. I learn relative knowledge by myself and try to realize some simple function(such as accelerate the computation), I have strong aspiration to develop in this field.Sometimes I will upload some simple example about engineering in my major field or something amateur.
+Hello!This is my code diary.With a relatively solid professional knowledge in mathematical physics and coding . I previously majored in Artificial Intelligence. Recently,my research turns to the In Memory Computing . I learn relative knowledge by myself and try to realize some simple function(such as accelerate the computation), I have strong aspiration to develop in this field.Sometimes I will upload some simple example about engineering in my major field or something amateur.
 
 ### 个人信息   Personal information
 
@@ -48,7 +48,9 @@ Tecent
 Graphics Algorithm Engineer   
 
 2023-
+
 IMECAS
+
 In Memory Computing  Engineer
 ### Hobbies
 *swimming  
