@@ -5,12 +5,11 @@ Hello!This is my code diary.With a relatively solid professional knowledge in ma
 ### 个人信息   Personal information
 
 ## 研究领域  major
+In Memory Computing
 
 CUDA
 
 HPC
-
-multimodal(AI)
 
 convex-optimization
 
@@ -47,6 +46,10 @@ Algorithm Engineer
 Tecent            
 
 Graphics Algorithm Engineer   
+
+2023-
+IMECAS
+In Memory Computing  Engineer
 ### Hobbies
 *swimming  
 
@@ -63,6 +66,6 @@ Graphics Algorithm Engineer
 ### Support or Contact
 #mails :
 
-wangweiya47@163.com
+wangweiya@ime.ac.cn
 
 wwy20@tsinghua.org.cn
