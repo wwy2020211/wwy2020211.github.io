@@ -1,10 +1,12 @@
 ## Welcome to my GitHub Pages
 
-Hello!This is my code diary.With a relatively solid professional knowledge in mathematical physics and coding . I previously majored in Artificial Intelligence. Recently,my research turns to the In Memory Computing . I learn relative knowledge by myself and try to realize some simple function(such as accelerate the computation), I have strong aspiration to develop in this field.Sometimes I will upload some simple example about engineering in my major field or something amateur.
+Hello!This is my code diary.With a relatively solid professional knowledge in mathematical physics and coding . I previously majored in Artificial Intelligence. Recently,my research turns to AI for science, semiconductor physics mechaism simulation&analysis. I learn relative knowledge by myself and try to simulate some simple mechanism(such as Feelectric polarization &Phase transition), I have strong aspiration to develop in research Physics with AI.Sometimes I will upload some simple example about engineering in my major field or something amateur.
 
 ### 个人信息   Personal information
 
 ## 研究领域  major
+AI for science, semiconductor physics mechaism simulation&analysis
+
 In Memory Computing
 
 CUDA
@@ -51,7 +53,7 @@ Graphics Algorithm Engineer
 
 IMECAS
 
-In Memory Computing  Engineer
+Chip fabrication Engineer  (AI for science, semiconductor physics mechaism simulation&analysis)
 ### Hobbies
 *swimming  
 
