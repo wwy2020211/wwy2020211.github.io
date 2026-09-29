@@ -1,0 +1,58 @@
+# ============ 基本信息（改这里）============
+title: Your Name
+description: PhD student in Computer Science. I work on machine learning systems.
+lang: en
+url: "https://yourname.github.io"   # 改成你的 GitHub Pages 地址
+baseurl: ""
+
+author:
+  name: Your Name
+  position: PhD Student, Computer Science
+  affiliation: Your University
+  affiliation_url: https://www.example.edu
+  avatar: /assets/img/avatar.svg     # 换成你的照片，比如 /assets/img/me.jpg
+  email: you@example.edu
+
+# 论文作者列表里需要加粗的名字（必须和 publications.yml 里的写法完全一致）
+scholar_name: Your Name
+
+# 主页头像下方的链接，不需要的删掉即可
+social:
+  - name: Email
+    url: mailto:you@example.edu
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=XXXX
+  - name: GitHub
+    url: https://github.com/yourname
+  - name: CV
+    url: /assets/cv.pdf
+
+# 顶部导航
+nav:
+  - name: Home
+    url: /
+  - name: Publications
+    url: /publications/
+  - name: Blog
+    url: /blog/
+
+news_limit: 6   # 首页显示几条新闻，其余折叠
+
+# ============ 以下一般不用改 ============
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+feed:
+  path: /blog/feed.xml
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

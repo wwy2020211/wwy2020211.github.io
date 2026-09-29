@@ -1,0 +1,10 @@
+{% assign p = include.pub %}
+{% capture me %}<strong>{{ site.scholar_name }}</strong>{% endcapture %}
+<li class="pub">
+  <p class="pub-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+  <p class="pub-authors">{{ p.authors | replace: site.scholar_name, me }}</p>
+  <p class="pub-venue"><em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}{% if p.note %} <span class="pub-note">{{ p.note }}</span>{% endif %}</p>
+  {% if p.links %}
+  <p class="pub-links">{% for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.name }}</a>{% endfor %}</p>
+  {% endif %}
+</li>

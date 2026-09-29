@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<p class="page-lede">Notes on research, papers I'm reading, and things I figured out the hard way. <a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a></p>
+
+{% assign posts_by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for group in posts_by_year %}
+<section class="year-group">
+  <h2 class="year">{{ group.name }}</h2>
+  <ul class="post-list">
+    {% for post in group.items %}{% include post-item.html post=post %}{% endfor %}
+  </ul>
+</section>
+{% else %}
+<p>No posts yet. Add a Markdown file to the <code>_posts</code> folder to publish your first one.</p>
+{% endfor %}
