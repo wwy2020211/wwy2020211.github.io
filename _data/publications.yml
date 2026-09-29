@@ -13,7 +13,7 @@
     - name: PDF
       url: https://doi.org/10.48550/arXiv.2511.00075
     - name: Code
-      url: https://github.com/yourname/project
+      url: https://github.com/wwy2020211/PDA-LSTM
     #- name: Slides
       #url: /assets/papers/slides.pdf
 
@@ -26,12 +26,12 @@
     - name: Figshare
       url: https://doi.org/10.6084/m9.figshare.30495890
     - name: Code
-      url: https://example.com
-
+      url: https://github.com/wwy2020211/PDA-KNN
 - title: "A Workshop Paper on Active learning"
   authors: **Weiya Wang**
   venue: Underreview--Expose when getting the result
   year: 2026
+  selected: true
   links:
     - name: PDF
       url: https://example.com
