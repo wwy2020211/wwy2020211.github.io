@@ -1,31 +1,31 @@
 # ============ 基本信息（改这里）============
-title: Your Name
-description: PhD student in Computer Science. I work on machine learning systems.
+title: Weiya Wang
+description: PhD student in Electronic Engineer. I work on First principle calculation, microelectronic device, Condense matter physics and neuromorphic computing(neuromorphic dynamics). Previously, my research focused on multimodal information processing, pretrained model and deep learning.I also have some interest on the interact for AI and science.
 lang: en
-url: "https://yourname.github.io"   # 改成你的 GitHub Pages 地址
+url: "https://scholar.google.com/citations?user=-GcNn88AAAAJ&hl=zh-CN"   # 改成你的 GitHub Pages 地址
 baseurl: ""
 
 author:
-  name: Your Name
-  position: PhD Student, Computer Science
-  affiliation: Your University
-  affiliation_url: https://www.example.edu
+  name: Weiya Wang
+  position: PhD Student, Electronic Engineer
+  affiliation: TU Berlin
+  affiliation_url: https://www.tu.berlin
   avatar: /assets/img/avatar.svg     # 换成你的照片，比如 /assets/img/me.jpg
-  email: you@example.edu
+  email: wwy20@tsinghua.org.cn
 
 # 论文作者列表里需要加粗的名字（必须和 publications.yml 里的写法完全一致）
-scholar_name: Your Name
+scholar_name: Weiya Wang
 
 # 主页头像下方的链接，不需要的删掉即可
 social:
   - name: Email
-    url: mailto:you@example.edu
+    url: wwy20@tsinghua.org.cn
   - name: Google Scholar
-    url: https://scholar.google.com/citations?user=XXXX
-  - name: GitHub
-    url: https://github.com/yourname
-  - name: CV
-    url: /assets/cv.pdf
+    url: https://scholar.google.com/citations?user=-GcNn88AAAAJ&hl=zh-CN
+  #- name: GitHub
+    #url: https://github.com/yourname
+  #- name: CV
+    #url: /assets/cv.pdf
 
 # 顶部导航
 nav:
