@@ -48,7 +48,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
+  #- jekyll-sitemap
 feed:
   path: /blog/feed.xml
 exclude:
