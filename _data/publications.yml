@@ -14,8 +14,8 @@
       url: https://doi.org/10.48550/arXiv.2511.00075
     - name: Code
       url: https://github.com/wwy2020211/PDA-LSTM
-    #- name: Slides
-      #url: /assets/papers/slides.pdf
+    - name: Patents
+      url: https://patents.google.com/patent/CN118866054A/en
 
 - title: "PDA-KNN: Page data arrangement based KNN to reduce retention errors for QLC 3D NAND flash memories"
   authors: Weiya Wang
