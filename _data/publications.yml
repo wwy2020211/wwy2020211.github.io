@@ -4,7 +4,7 @@
 # links 的 url 可以是外链，也可以是仓库内文件，如 /assets/papers/xxx.pdf
 
 - title: "PDA-LSTM: Knowledge-driven page data arrangement based on LSTM for LCM supression in QLC 3D NAND flash memories"
-  authors: Qianhui Li, **Weiya Wang**, Qianqi Zhao, Tong Qu, Jing He, Xuhong Qiang, Jingwen Hou, Ke Chen, Bao Zhang, Qi Wang
+  authors: “Qianhui Li, Weiya Wang, Qianqi Zhao, Tong Qu, Jing He, Xuhong Qiang, Jingwen Hou, Ke Chen, Bao Zhang, Qi Wang”
   venue: 	arXiv:2511.00075
   year: 2025
   #note: Spotlight
@@ -18,7 +18,7 @@
       #url: /assets/papers/slides.pdf
 
 - title: "PDA-KNN: Page data arrangement based KNN to reduce retention errors for QLC 3D NAND flash memories"
-  authors: **Weiya Wang**
+  authors: “Weiya Wang”
   venue: Figshare
   year: 2025
   selected: true
@@ -28,7 +28,7 @@
     - name: Code
       url: https://github.com/wwy2020211/PDA-KNN
 - title: "A Workshop Paper on Active learning"
-  authors: **Weiya Wang**
+  authors: “Weiya Wang”
   venue: Underreview--Expose when getting the result
   year: 2026
   selected: true
