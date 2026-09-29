@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello, world
-description: A sample post showing code blocks, math, and images.
+title: Recent activities beyond research
+description: Origami Tessellations
 tags: [misc]
 math: true
 ---
