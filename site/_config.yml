@@ -10,7 +10,7 @@ author:
   position: PhD Student, Electronic Engineer
   affiliation: TU Berlin
   affiliation_url: https://www.tu.berlin
-  avatar: /assets/img/avatar.svg     # 换成你的照片，比如 /assets/img/me.jpg
+  avatar: /assets/img/photo2.jpg     # 换成你的照片，比如 /assets/img/me.jpg
   email: wwy20@tsinghua.org.cn
 
 # 论文作者列表里需要加粗的名字（必须和 publications.yml 里的写法完全一致）
