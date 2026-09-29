@@ -1,15 +1,15 @@
 # 新闻：最新的写在最上面。text 里可以用 Markdown（链接、加粗）
-- date: "2026.09"
-  text: Our paper on efficient LLM serving was accepted to **NeurIPS 2026**!
-- date: "2026.07"
-  text: Gave a talk at the [Example Workshop](https://example.com) on sparse attention.
-- date: "2026.05"
-  text: Started my summer internship at Example Research.
-- date: "2026.01"
-  text: One paper accepted to **ICLR 2026**.
 - date: "2025.09"
-  text: Received the Example Fellowship.
-- date: "2025.06"
-  text: Released [FastLib](https://github.com/yourname/fastlib), an open-source toolkit for model compression.
-- date: "2024.09"
-  text: Started my PhD at Your University.
+  text: Start my PhD
+- date: "2025.03"
+  text: Started my AI4S internship at Tsingyu Technology. Work as a LLM engineer for chemistry molecular structure
+- date: "2024.05"
+  text: Proposed an FTL-based solution to mitigate lateral leakage in 3D NAND flash. Related patent applications have been filed and published.
+- date: "2023.09"
+  text: Gave a talk about **Active learning for Remote sensing imagery** at the **International Young Scholars Forum on Unmanned Systems**.
+- date: "2023.09"
+  text: Started my industry experience at CAS, work on 3D NAND FLASH memory micro-system.
+- date: "2021.09"
+  text: Started MSRA intership. Work on pretrained-based Natural Language Processing for Semi-Structured Text
+- date: "2020.09"
+  text: Started my Master at Tsinghua University. 
