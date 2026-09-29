@@ -1,0 +1,37 @@
+# 论文列表。每篇一个条目，顺序无所谓（按 year 自动分组倒序）
+# selected: true 的论文会显示在首页
+# authors 里和 _config.yml 中 scholar_name 完全一致的名字会被自动加粗
+# links 的 url 可以是外链，也可以是仓库内文件，如 /assets/papers/xxx.pdf
+
+- title: "Fast and Cheap: Efficient Serving of Large Language Models"
+  authors: Your Name, Coauthor A, Coauthor B, Advisor Name
+  venue: Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2026
+  note: Spotlight
+  selected: true
+  links:
+    - name: PDF
+      url: https://arxiv.org/abs/0000.00000
+    - name: Code
+      url: https://github.com/yourname/project
+    - name: Slides
+      url: /assets/papers/slides.pdf
+
+- title: "Sparse Attention Is All You Need (Sometimes)"
+  authors: Coauthor C*, Your Name*, Advisor Name
+  venue: International Conference on Learning Representations (ICLR)
+  year: 2026
+  selected: true
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/0000.00000
+    - name: Project
+      url: https://example.com
+
+- title: "A Workshop Paper on Model Compression"
+  authors: Your Name, Advisor Name
+  venue: ICML Workshop on Efficient Systems
+  year: 2025
+  links:
+    - name: PDF
+      url: https://example.com
