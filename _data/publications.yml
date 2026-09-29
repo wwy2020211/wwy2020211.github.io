@@ -3,35 +3,35 @@
 # authors 里和 _config.yml 中 scholar_name 完全一致的名字会被自动加粗
 # links 的 url 可以是外链，也可以是仓库内文件，如 /assets/papers/xxx.pdf
 
-- title: "Fast and Cheap: Efficient Serving of Large Language Models"
-  authors: Your Name, Coauthor A, Coauthor B, Advisor Name
-  venue: Conference on Neural Information Processing Systems (NeurIPS)
-  year: 2026
-  note: Spotlight
+- title: "PDA-LSTM: Knowledge-driven page data arrangement based on LSTM for LCM supression in QLC 3D NAND flash memories"
+  authors: Qianhui Li, **Weiya Wang**, Qianqi Zhao, Tong Qu, Jing He, Xuhong Qiang, Jingwen Hou, Ke Chen, Bao Zhang, Qi Wang
+  venue: 	arXiv:2511.00075
+  year: 2025
+  #note: Spotlight
   selected: true
   links:
     - name: PDF
-      url: https://arxiv.org/abs/0000.00000
+      url: https://doi.org/10.48550/arXiv.2511.00075
     - name: Code
       url: https://github.com/yourname/project
-    - name: Slides
-      url: /assets/papers/slides.pdf
+    #- name: Slides
+      #url: /assets/papers/slides.pdf
 
-- title: "Sparse Attention Is All You Need (Sometimes)"
-  authors: Coauthor C*, Your Name*, Advisor Name
-  venue: International Conference on Learning Representations (ICLR)
-  year: 2026
+- title: "PDA-KNN: Page data arrangement based KNN to reduce retention errors for QLC 3D NAND flash memories"
+  authors: **Weiya Wang**
+  venue: Figshare
+  year: 2025
   selected: true
   links:
-    - name: arXiv
-      url: https://arxiv.org/abs/0000.00000
-    - name: Project
+    - name: Figshare
+      url: https://doi.org/10.6084/m9.figshare.30495890
+    - name: Code
       url: https://example.com
 
-- title: "A Workshop Paper on Model Compression"
-  authors: Your Name, Advisor Name
-  venue: ICML Workshop on Efficient Systems
-  year: 2025
+- title: "A Workshop Paper on Active learning"
+  authors: **Weiya Wang**
+  venue: Underreview--Expose when getting the result
+  year: 2026
   links:
     - name: PDF
       url: https://example.com
