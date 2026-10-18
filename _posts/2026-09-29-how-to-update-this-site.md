@@ -29,32 +29,40 @@ A two-input, two-output system
 </svg>
 
 The relation between the input and output amplitudes is
-\[
+<div class="math-display">\[
 \begin{pmatrix}O_1\\O_2\end{pmatrix}
 =\underbrace{\begin{pmatrix}T_{11}&T_{12}\\T_{21}&T_{22}\end{pmatrix}}_{T}
 \begin{pmatrix}I_1\\I_2\end{pmatrix}.
-\]
+\]</div>
+
 In this convention, columns label input channels and rows label output channels:
-\(O_1=T_{11}I_1+T_{12}I_2,\qquad O_2=T_{21}I_1+T_{22}I_2.\)
-Thus, \(T_{12}\) is the contribution from input 2 to output 1, per unit input 2 with the other input set to zero. If \((I_1,I_2)=(0,1)\), then \((O_1,O_2)=(T_{12},T_{22})\).
+<div class="math-display">\[
+O_1=T_{11}I_1+T_{12}I_2,\qquad O_2=T_{21}I_1+T_{22}I_2.
+\]</div>
+
+Thus, <span class="math-inline">\(T_{12}\)</span> is the contribution from input 2 to output 1, per unit input 2 with the other input set to zero. If <span class="math-inline">\((I_1,I_2)=(0,1)\)</span>, then <span class="math-inline">\((O_1,O_2)=(T_{12},T_{22})\)</span>.
 From a matrix mapping to quantum dynamics
 A Hamiltonian is also a linear operator, but it is not itself a transmission coefficient or a measurement probability. It determines the time derivative of the quantum state through Schrödinger's equation:
-\(i\hbar\frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle.\)
-In a two-state orthonormal basis, \(|\psi\rangle=c_1|1\rangle+c_2|2\rangle\), so
-\[
- i\hbar\begin{pmatrix}\dot c_1\\\dot c_2\end{pmatrix}
+<div class="math-display">\[
+i\hbar\frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle.
+\]</div>
+
+In a two-state orthonormal basis, <span class="math-inline">\(|\psi\rangle=c_1|1\rangle+c_2|2\rangle\)</span>, so
+<div class="math-display">\[
+i\hbar\begin{pmatrix}\dot c_1\\\dot c_2\end{pmatrix}
  =\begin{pmatrix}H_{11}&H_{12}\\H_{21}&H_{22}\end{pmatrix}
  \begin{pmatrix}c_1\\c_2\end{pmatrix}.
-\]
+\]</div>
+
 Therefore,
- i\hbar\dot c_2=H_{21}c_1+H_{22}c_2.$$
+<div class="math-display">\[
+i\hbar\dot c_1=H_{11}c_1+H_{12}c_2,\qquad
+ i\hbar\dot c_2=H_{21}c_1+H_{22}c_2.
+\]</div>
 
-The diagonal terms \(H_{11}\) and \(H_{22}\) contribute to each basis component's evolution; in the absence of coupling they set its phase rotation rate. The off-diagonal terms \(H_{12}\) and \(H_{21}\) **couple the two components**, so an amplitude in state 2 can affect the *rate of change* of amplitude in state 1, and vice versa. For a closed system, \(H=H^\dagger\), hence \(H_{21}=H_{12}^*\).
-
-#### Why \(H_{12}=\langle1|H|2\rangle\): a geometric picture
-
-Apply \(H\) to the second unit basis vector \(|2\rangle\). Let \(|2'\rangle:=H|2\rangle\). Then the coefficient of the output along \(|1\rangle\) is obtained by projecting onto \(\langle1|\):
-
+The diagonal terms <span class="math-inline">\(H_{11}\)</span> and <span class="math-inline">\(H_{22}\)</span> contribute to each basis component's evolution; in the absence of coupling they set its phase rotation rate. The off-diagonal terms <span class="math-inline">\(H_{12}\)</span> and <span class="math-inline">\(H_{21}\)</span> couple the two components, so an amplitude in state 2 can affect the rate of change of amplitude in state 1, and vice versa. For a closed system, <span class="math-inline">\(H=H^\dagger\)</span>, hence <span class="math-inline">\(H_{21}=H_{12}^*\)</span>.
+Why <span class="math-inline">\(H_{12}=\langle1|H|2\rangle\)</span>: a geometric picture
+Apply <span class="math-inline">\(H\)</span> to the second unit basis vector <span class="math-inline">\(|2\rangle\)</span>. Let <span class="math-inline">\(|2'\rangle:=H|2\rangle\)</span>. Then the coefficient of the output along <span class="math-inline">\(|1\rangle\)</span> is obtained by projecting onto <span class="math-inline">\(\langle1|\)</span>:
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" role="img" aria-label="Orthogonal basis vectors 1 and 2, transformed vector 2 prime, and its projection along basis 1" style="max-width:640px;width:100%;height:auto;display:block;margin:1rem auto;color:currentColor">
   <defs><marker id="qmArrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="currentColor"/></marker></defs>
   <g stroke="currentColor" fill="none" stroke-width="2" marker-end="url(#qmArrow)">
@@ -71,11 +79,11 @@ Apply \(H\) to the second unit basis vector \(|2\rangle\). Let \(|2'\rangle:=H|2
   </g>
 </svg>
 
+<div class="math-display">\[
 H|2\rangle=H_{12}|1\rangle+H_{22}|2\rangle
 \quad\Rightarrow\quad
 \boxed{\langle1|H|2\rangle=H_{12}}.
+\]</div>
 
-**Read the expression from right to left:** state 2 is the input; \(H\) acts on it; \(\langle1|\) extracts the component along output direction 1. The diagram illustrates real components; for general complex amplitudes, the inner product gives a complex coefficient rather than a geometric length.
-
-**Takeaway:** the input–output analogy explains the meaning and ordering of matrix indices; Schrödinger's equation tells us how the Hamiltonian translates those couplings into quantum-state dynamics.
-
+Read the expression from right to left: state 2 is the input; <span class="math-inline">\(H\)</span> acts on it; <span class="math-inline">\(\langle1|\)</span> extracts the component along output direction 1. The diagram illustrates real components; for general complex amplitudes, the inner product gives a complex coefficient rather than a geometric length.
+Takeaway: the input–output analogy explains the meaning and ordering of matrix indices; Schrödinger's equation tells us how the Hamiltonian translates those couplings into quantum-state dynamics.
